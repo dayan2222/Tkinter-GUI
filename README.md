@@ -5,6 +5,7 @@ My initial practice code of TKINTER GUI
 2- Image = Declaring Images<br>
 3- Attribiutes of Labels<br>
     such as<br>
+    
     # Important Label Options
     # text - add the text
     # bd - background
@@ -22,11 +23,13 @@ My initial practice code of TKINTER GUI
     # fill - fill=X,Y
     # padx
     # pady
-4- Newspaper using Attribiutes 
-5- Frames
-6- Button 
+    
+4- Newspaper using Attribiutes <br>
+5- Frames<br>
+6- Button <br>
+
     # We can decalre fucntion in button using "commannd = function_name "
-7- Grids
-8- CheckBox Buttons along with csv file
-    ![Login Form](https://https://github.com/dayan2222/Tkinter-GUI/blob/master/Login%20Form.PNG)
+7- Grids <br>
+8- CheckBox Buttons along with csv file<br>
+    ![Login Form](http:https://github.com/dayan2222/Tkinter-GUI/blob/master/Login%20Form.PNG)
 
