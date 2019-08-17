@@ -30,6 +30,7 @@ My initial practice code of TKINTER GUI
 
     # We can decalre fucntion in button using "commannd = function_name "
 7- Grids <br>
-8- CheckBox Buttons along with csv file<br>
-    ![Login Form](http:https://github.com/dayan2222/Tkinter-GUI/blob/master/Login%20Form.PNG)
+8- CheckBox Buttons along with csv file<br><br>
 
+
+    !<img src="Login Form.PNG" width="50" height="50">
