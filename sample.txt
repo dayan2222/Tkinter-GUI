@@ -1,0 +1,25 @@
+
+ Name: Dayan
+ Father Name: Habib 
+ Faculty: FEST 
+ Year: 2019
+
+ Name: Hamza
+ Father Name: Sikander 
+ Faculty: Business 
+ Year: 2019
+
+ Name: Khubaib
+ Father Name: Zafar 
+ Faculty: FEST 
+ Year: 2019
+
+ Name: Sammad 
+ Father Name: Arif 
+ Faculty: FEST 
+ Year: 2019
+
+ Name: Ali
+ Father Name: Taqvi 
+ Faculty: FEST 
+ Year: 2019
