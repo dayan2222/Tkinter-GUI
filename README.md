@@ -32,4 +32,7 @@ My initial practice code of TKINTER GUI
 7- Grids <br>
 8- CheckBox Buttons along with csv file<br><br>
 
-<center><img src="Login Form.PNG" alt-text="Login Form"></center>
+<center><img src="Login Form.PNG" alt-text="Login Form"></center><br>
+9- Canvas GUI<br>
+<center><img src="Canvas GUI.PNG" alt-text="Login Form"></center><br>
+
