@@ -35,4 +35,13 @@ My initial practice code of TKINTER GUI
 <center><img src="Login Form.PNG" alt-text="Login Form"></center><br>
 9- Canvas GUI<br>
 <center><img src="Canvas GUI.PNG" alt-text="Login Form"></center><br>
+10- Mouse Event Handling<br>
+    
+     # bind is the keyword used to bind the mouse events
+     # <Button-1> = Left Mouse Button
+     # <Button-1> = Left Mouse Button
+     # <Button-2> = Middle Mouse Button
+     # <Button-3> = Right Mouse Button
+     # Double is used for double click   
+
 
