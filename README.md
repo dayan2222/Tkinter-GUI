@@ -44,4 +44,5 @@ My initial practice code of TKINTER GUI
      # <Button-3> = Right Mouse Button
      # Double is used for double click   
 
-
+11- Exercise: Newspaper<br>
+<center><img src="Newspaper on TKinter/Newspaper.PNG" alt-text="Newspaper"></center><br>
