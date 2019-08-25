@@ -11,9 +11,10 @@ root.config(menu=menu)
 
 # Drop Down
 main_menu = Menu(root)
-
+# tearoff use to fix the menu
 sub_menu1 = Menu(main_menu, tearoff=0)
 sub_menu1.add_command(label="New", command=my_function)
+# for seprating in menus
 sub_menu1.add_separator()
 sub_menu1.add_command(label="Quit", command=quit)
 root.config(menu=main_menu)
