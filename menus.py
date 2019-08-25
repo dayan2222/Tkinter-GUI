@@ -4,10 +4,10 @@ def my_function():
     print("Hello World!")
 
 # Non-Drop Down
-# menu = Menu(root)
-# menu.add_command(label="File", command=my_function)
-# menu.add_command(label="Quit", command=quit)
-# root.config(menu=menu)
+menu = Menu(root)
+menu.add_command(label="File", command=my_function)
+menu.add_command(label="Quit", command=quit)
+root.config(menu=menu)
 
 # Drop Down
 main_menu = Menu(root)
