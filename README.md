@@ -46,3 +46,24 @@ My initial practice code of TKINTER GUI
 
 11- Exercise: Newspaper<br>
 <center><img src="Newspaper on TKinter/Newspaper.PNG" alt-text="Newspaper"></center><br>
+12- Ceaser Cipher using filling.<br>
+
+<center><img src="Cipher/encypt.PNG" alt-text="Encrypt" height="50%"><center>
+13- Menus<br>
+    
+    # Non-Drop Down
+    menu = Menu(root)
+    menu.add_command(label="File", command=my_function)
+    menu.add_command(label="Quit", command=quit)
+    root.config(menu=menu)
+
+    # Drop Down
+    main_menu = Menu(root)
+    # tearoff use to fix the menu
+    sub_menu1 = Menu(main_menu, tearoff=0)
+    sub_menu1.add_command(label="New", command=my_function)
+    # for seprating in menus
+    sub_menu1.add_separator()
+    sub_menu1.add_command(label="Quit", command=quit)
+    root.config(menu=main_menu)
+    main_menu.add_cascade(label="File", menu=sub_menu1)
