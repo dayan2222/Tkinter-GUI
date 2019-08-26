@@ -67,3 +67,16 @@ My initial practice code of TKINTER GUI
     sub_menu1.add_command(label="Quit", command=quit)
     root.config(menu=main_menu)
     main_menu.add_cascade(label="File", menu=sub_menu1)
+    
+14- Mesage Box<br>
+    
+    # important tags 
+    # import tkinter.messagebox as tmsg
+    # tmsg.askquestion("Label", "Message")
+    # tmsg.showinfo("Label", "Message")
+    # tmsg.askretrycancel("Label", "Message")
+    # tmsg.showwarning("Label", "Message")
+    
+
+
+
