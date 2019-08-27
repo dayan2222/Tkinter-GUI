@@ -1,6 +1,24 @@
-# Tkinter-GUI
-My initial practice code of TKINTER GUI
+# Tkinter-GUI Based Initial Practise Projects
 
+### Ceaser Cipher
+<p> using my own technique<p>
+<center><img src="Cipher/encypt.PNG" alt-text="Encrypt" height="50%"><center>
+    <br>    <h4>Edited</h4>
+    <p>Here, I hvae used a Key 4. In caesar cipher.py you can takes the value from 1 - 26</p>
+<center><img src="Cipher/inititial.PNG" alt-text="Encrypt" height="50%"><center>
+<center><img src="Cipher/Encrypt1.PNG" alt-text="Encrypt" height="50%"><center>
+<center><img src="Cipher/Encrypt2.PNG" alt-text="Encrypt" height="50%"><center>
+<center><img src="Cipher/Error Message.PNG" alt-text="Encrypt" height="50%"><center>   
+
+### Resturant Feedback
+
+    <p>Using Filling(which saves data) and Messsage Box<p>
+    <center><img src="Resturant Feedback/initial.PNG" alt-text="Resturant Feedback" height="50%"><center>
+    <center><img src="Resturant Feedback/final.PNG" alt-text="Resturant Feedback" height="50%"><center>
+
+# Tkinter-GUI Practice Code
+
+My initial practice code of TKINTER GUI<br>
 1- Welcome = Label <br>
 2- Image = Declaring Images<br>
 3- Attribiutes of Labels<br>
@@ -83,6 +101,12 @@ My initial practice code of TKINTER GUI
     # tmsg.askretrycancel("Label", "Message")
     # tmsg.showwarning("Label", "Message")
     
+15- Scale Slider
 
+    # important attributes are
+    # Scale
+    # oreint = HORIZONTAL By Default it is Vertical
+    # tkinterval = (set the value which divide it)
+    # scale.set(5)<- set the default value By Default it is 0
 
 
