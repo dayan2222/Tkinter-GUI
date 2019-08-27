@@ -1,1 +1,4 @@
-LIPPS
+
+Plain Text: DAYAN Key: 4 Encrypted Text: HECER
+Plain Text: HAMZA Key: 4 Encrypted Text: LEQDE
+Plain Text: HELLO Key: 4 Encrypted Text: LIPPS
