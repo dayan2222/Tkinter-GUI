@@ -14,7 +14,7 @@ def encrypt():
     k = key_value.get()
 
     if k > 26:
-        warning="Key Should be Less than or Equals to 26! Try to enter Key value from 0 - 26"
+        warning="Key Should be Less than or Equals to 26! Try to enter Key value from 1 - 26"
         tmsg.showwarning("Greater than 26", warning)
     else:
         with open("encrypt.txt", "a") as f:
