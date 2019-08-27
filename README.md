@@ -49,6 +49,12 @@ My initial practice code of TKINTER GUI
 12- Ceaser Cipher using filling.<br>
 
 <center><img src="Cipher/encypt.PNG" alt-text="Encrypt" height="50%"><center>
+    <br>    <h2>Edited</h2>
+    <p>Here, I hvae used a Key 4. In caesar cipher.py you can takes the value from 1 - 26</p>
+<center><img src="Cipher/inititial.PNG" alt-text="Encrypt" height="50%"><center>
+<center><img src="Cipher/Encrypt1.PNG" alt-text="Encrypt" height="50%"><center>
+<center><img src="Cipher/Encrypt2.PNG" alt-text="Encrypt" height="50%"><center>
+<center><img src="Cipher/Error Message.PNG" alt-text="Encrypt" height="50%"><center>    
 13- Menus<br>
     
     # Non-Drop Down
