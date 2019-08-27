@@ -1,33 +1,40 @@
 # ====================== Caesar Cipher ======================
 from tkinter import *
+import tkinter.messagebox as tmsg
 root = Tk()
 root.geometry("500x500")
 root.minsize(450,450)
 
 def encrypt():
-    final = []
+
     string = text_value.get()
     string = string.upper()
+    ptext = string
 
     k = key_value.get()
 
-    for i in string:
-        print(i, end = " -> ")
-        p = ord(i) - 65
-
-        c = (p + k) % 26
-        c = c + 65
-        final = chr(c)
-        print(final)
+    if k > 26:
+        warning="Key Should be Less than or Equals to 26! Try to enter Key value from 0 - 26"
+        tmsg.showwarning("Greater than 26", warning)
+    else:
         with open("encrypt.txt", "a") as f:
-            f.write(final)
-            # Label(root, text=f.read()).grid(row=6, column=1)
-    k = str(k)
-    show = "Key " + str(k) + " is used to Encrypt The String!"
+            f.write("\nPlain Text: " + str(ptext) + " Key: " + str(k) + " Encrypted Text: " )
+        for i in string:
+            #print(i, end = " -> ")
+            p = ord(i) - 65
 
-    Label(root, text=show).grid(row=7, column=1)
-    # print("Key " + k + " is used to Encrypt The String!")
+            c = (p + k) % 26
+            c = c + 65
+            final = chr(c)
+            print(final)
+            with open("encrypt.txt", "a") as f:
+                f.write(final)
 
+        k = str(k)
+
+        with open("encrypt.txt", "r") as f:
+             show = f.read()
+        Label(root, text=show, fg = "green").grid(row=7, column=1)
 
 # Heading
 Label(root, text="Caesar Cipher", font="Helvatica 20 bold", fg="Brown", padx=10, pady=5).grid(row=0,column=1)
