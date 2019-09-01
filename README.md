@@ -17,8 +17,9 @@
 
 ### Line Drawer
 <p>Line Drawer <b>(Under Construction)</b><p>
-<center><img src="LineDrawer/initial.PNG" alt-text="Resturant Feedback" height="50%"><center>
-<center><img src="LineDrawer/line.PNG" alt-text="Resturant Feedback" height="50%"><center>
+<center><img src="LineDrawer/v1.PNG" alt-text="Line Drawer" height="50%"><center>
+<center><img src="LineDrawer/v1 drawing face.PNG" alt-text="Line Drawing Face" height="50%"><center>
+
 
 # Tkinter-GUI Practice Code
 
