@@ -114,4 +114,19 @@ My initial practice code of TKINTER GUI<br>
     # tkinterval = (set the value which divide it)
     # scale.set(5)<- set the default value By Default it is 0
 
+16- GUI with Classes
+17- Scrollbar
+18- Statusbar
+
+    #statusvar = StringVar()
+    #statusvar.set("Ready")
+
+    #sbar = Label(root, textvariable=statusvar, relief=SUNKEN, anchor="w")
+    #sbar.pack(side=BOTTOM, fill=X)
+
+19- Listbox
+    
+    # lbx = Listbox(root)
+    # lbx.pack()  
+    #lbx.insert(END, "First item of List")
 
