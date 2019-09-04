@@ -1,5 +1,5 @@
 from tkinter import *
-
+import fontawesome as fa
 root = Tk()
 
 root.title("Lets Draw Lines")
@@ -37,7 +37,8 @@ def new_winF():
     Entry(new_win, textvariable=y2_value).grid(row=3, column=4)
 
     Button(new_win,text="Draw", command = line, bg="#EBF5FB", fg="#34495E", padx=15).grid(row=4, column= 2)
-    Label(new_win,text="Under Construction", fg = "red").grid(row=5, column= 2)
+    font = fa.icons['check']#fas fa-fw fa-tachometer-alt
+    Label(new_win,text=f"{font} Completed", fg = "green").grid(row=5, column= 2)
 #"""
 def line():
     print(f"The value of x1 is {x1_value.get()}, y1 is {y1_value.get()}. The value of x2 is {x2_value.get()}, and the value of y2 is {y2_value.get()}.")
@@ -55,7 +56,7 @@ canvas_height = 600
 
 # TODO: Y-Axis
 canvas_widget = Canvas(root, width=95, height=600, background='#EBF5FB')
-canvas_widget.grid(row=0, column=0)
+canvas_widget.grid(row=1, column=0)
 
 #  x,y
 canvas_widget.create_text(50,10, text="y-axis", fill="green")
@@ -68,12 +69,12 @@ canvas_widget.create_text(55,597, text="0", fill="green")
 canvas_widget.create_line(60,600, 95,600, fill="green")
 
 #  x,y , 0,0
-canvas_widget.create_text(50,500, text="100", fill="green")
+canvas_widget.create_text(50,500, text="500", fill="green")
 # x-axis {(x1,y1), (x2,y2)}}
 canvas_widget.create_line(60,500, 95,500, fill="green")
 
 #  x,y , 0,0
-canvas_widget.create_text(50,400, text="200", fill="green")
+canvas_widget.create_text(50,400, text="400", fill="green")
 # x-axis {(x1,y1), (x2,y2)}}
 canvas_widget.create_line(60,400, 95,400, fill="green")
 
@@ -83,12 +84,12 @@ canvas_widget.create_text(50,300, text="300", fill="green")
 canvas_widget.create_line(60,300, 95,300, fill="green")
 
 #  x,y , 0,0
-canvas_widget.create_text(50,200, text="400", fill="green")
+canvas_widget.create_text(50,200, text="200", fill="green")
 # x-axis {(x1,y1), (x2,y2)}}
 canvas_widget.create_line(60,200, 95,200, fill="green")
 
 #  x,y , 0,0
-canvas_widget.create_text(50,100, text="500", fill="green")
+canvas_widget.create_text(50,100, text="100", fill="green")
 # x-axis {(x1,y1), (x2,y2)}}
 canvas_widget.create_line(60,100, 95,100, fill="green")
 
@@ -96,12 +97,12 @@ canvas_widget.create_line(60,100, 95,100, fill="green")
 
 # width=800, height=590,
 canvas_widget_line = Canvas(root, width=canvas_width, height=canvas_height, background='#EBF5FB')
-canvas_widget_line.grid(row=0, column=1, columnspan=5)#pack()
+canvas_widget_line.grid(row=1, column=1, columnspan=5)#pack()
 
 # TODO: X-Axis
 
 canvas_widget = Canvas(root, width=900, height=50, background='#EBF5FB')
-canvas_widget.grid(row=1, column=0, columnspan=6, pady=1)
+canvas_widget.grid(row=0, column=0, columnspan=6, pady=1)
 # Define the coordinate of x,y only
 canvas_widget.create_text(880,20, text="x-axis", fill="red")
 
