@@ -3,8 +3,9 @@
 ### Ceaser Cipher v.1.1
 <p> Ceaser Cipher v.1.1<p>
 <center><img src="Cipher/ScreenShots/welcome.PNG" alt-text="Encrypt" height="50%"><center>    
-<p>Here, I hvae used a Key 4. In caesar cipher you can take the key values from 1 - 26</p>
+<p>Here, I hvae used a Key 4 for encryption. In caesar cipher you can take the key values from 1 - 26</p>
 <center><img src="Cipher/ScreenShots/Encryption.PNG" alt-text="Encrypt" height="50%"><center>    
+<p>Here, I hvae used a Key 4 for decryption. In caesar cipher you can take the key values from 1 - 26</p>    
 <center><img src="Cipher/ScreenShots/decryption.PNG" alt-text="Encrypt" height="50%"><center>        
     
 ### Ceaser Cipher 
