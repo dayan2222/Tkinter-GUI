@@ -1,8 +1,8 @@
 from tkinter import *
 import sys
 import MySQLdb
-# host,user,password,db
-conn = MySQLdb.connect("localhost","root","","codingthunder")
+# host,user,password,databaseName
+conn = MySQLdb.connect("localhost","root","","Tkinter")
 if(conn):
     print("Connection Successful")
 else:
